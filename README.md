@@ -14,8 +14,23 @@
     - [Aprendizagem não supervisionada](#aprendizagem-não-supervisionada)
     - [Aprendizagem semi-supervisionada](#aprendizagem-semi-supervisionada)
     - [Aprendizagem por reforço](#aprendizagem-por-reforço)
-  - [Aula 4: Pré-processamento de Dados](#aula-4-pré-processamento-de-dados)
-  - [Aula 5: Pré-processamento de Dados](#aula-5-pré-processamento-de-dados)
+  - [Aula 4: Pré-processamento de Dados. pt1](#aula-4-pré-processamento-de-dados-pt1)
+    - [Objetos](#objetos)
+    - [Atributos](#atributos)
+    - [Conjunto de dados](#conjunto-de-dados)
+    - [Etapas do pré processamento](#etapas-do-pré-processamento)
+    - [Estatística descritiva](#estatística-descritiva)
+      - [Variância](#variância)
+      - [Desvio padrão](#desvio-padrão)
+      - [Correlação](#correlação)
+  - [Aula 5: Pré-processamento de Dados. pt2](#aula-5-pré-processamento-de-dados-pt2)
+    - [Eliminação manual dos atributos](#eliminação-manual-dos-atributos)
+    - [Integração de dados](#integração-de-dados)
+    - [Amostragem de dados](#amostragem-de-dados)
+    - [Balanceamento de dados](#balanceamento-de-dados)
+    - [Limpeza de dados](#limpeza-de-dados)
+    - [Redução de dimensionalidade](#redução-de-dimensionalidade)
+    - [Transformação de dados](#transformação-de-dados)
   - [Aula 6: KNN](#aula-6-knn)
   - [Aula 7: Avaliação de Modelos Preditivos](#aula-7-avaliação-de-modelos-preditivos)
     - [Métricas para Classificação](#métricas-para-classificação)
@@ -117,9 +132,73 @@ O famoso jogo do navegador chrome quando o usuário perde a conexão com a inter
 
 Nesse jogo os podemos identificaar os estados como os frames, as ações pular e abaixar e a medida de desempenho a distância percorrida, quanto maior melhor.
 
-## Aula 4: Pré-processamento de Dados
+## Aula 4: Pré-processamento de Dados. pt1
 
-## Aula 5: Pré-processamento de Dados
+### Objetos
+
+- Representam objetos físicos ou uma noção abstrata.
+- Cada objeto corresponde a uma ocorrência dos dados.
+
+### Atributos
+
+- Cada objeto é descrito por um conjunto de atributos de entrada ou vetor de características.
+- Cada atributo está associado a uma propriedade do objeto.
+
+### Conjunto de dados
+
+- Os dados podem ser representados por uma matriz de objetos $X$ $n$ $x$ $d$, em que $n$ é o número de objetos e $d$ é o número de atributos de entrada de cada objeto.
+- o valor de $d$ define a dimensionalidade dos objetos ou do espaço dos objetos
+
+### Etapas do pré processamento
+
+- Eliminação manual dos atributos
+- Integração de dados
+- Amostragem de dados
+- Balanceamento de dados
+- Limpeza de dados
+- Redução de dimensionalidade
+- Transformação de dados
+
+### Estatística descritiva
+
+resume de forma quantitativa as principais características de um conjunto de dados.
+
+#### Variância
+
+Uma **Medida de dispersão** que mostraquão distante os valores estão da média.
+
+**Covariância:** mede o grau em que os atributos crescem juntos.
+
+#### Desvio padrão
+
+É simplesmente o resultado positivo da raíz quadrada da variância. Na prática, o desvio padrão indica qual é o "erro" se quiséssemos substituir um dos valores coletados pelo valor da média.
+
+#### Correlação
+
+Indica o grau de associação entre duas variáveis. Ela mostra a direção e a força do relacionamento entre essas variáveis, podendo ser:
+
+- **Positiva:** quando o aumento de uma variável está associado ao aumento da outra.
+- **Negativa:** quando o aumento de uma variável está associado à diminuição da outra.
+- **Nula:** quando não há associação entre as variáveis.
+
+## Aula 5: Pré-processamento de Dados. pt2
+
+### Eliminação manual dos atributos
+
+### Integração de dados
+
+- Busca atributos comuns nos conjuntos de dados a serem combinados;
+- Atributos utilizados para combinação deve(m) ter um valor único para cada objeto.
+
+### Amostragem de dados
+
+### Balanceamento de dados
+
+### Limpeza de dados
+
+### Redução de dimensionalidade
+
+### Transformação de dados
 
 ## Aula 6: KNN
 
